@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MemeApp</string>
+    <string name="share">Share</string>
+    <string name="next">Next</string>
+    <string name="todo">TODO</string>
+    <string name="design_by_nshaik_ar">DESIGN BY \nShaik Ar</string>
+</resources>

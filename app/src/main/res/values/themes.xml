@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MemeApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">#416752</item>
+    </style>
+
+    <style name="Theme.MemeApp" parent="Base.Theme.MemeApp" />
+
+    <!-- Splash screen theme. -->
+    <style name="Theme.MemeApp.Splash" parent="Theme.MemeApp">
+        <item name="android:windowBackground">@drawable/shaq</item>
+    </style>
+
+</resources>
