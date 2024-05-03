@@ -1,5 +1,5 @@
 package com.shaik.memeapp
-import MySingleton
+
 import android.content.Intent
 import android.graphics.drawable.Drawable
 import android.os.Bundle
@@ -48,7 +48,7 @@ class MainActivity : AppCompatActivity() {
         val jsonObjectRequest = JsonObjectRequest(
             Request.Method.GET, currentImageUrl, null,
             { response ->
-               val currentImageUrl= response.getString("url")
+                val currentImageUrl= response.getString("url")
                 Glide.with(this).load(currentImageUrl).listener(object: RequestListener<Drawable>{
                     override fun onLoadFailed(
                         e: GlideException?,
